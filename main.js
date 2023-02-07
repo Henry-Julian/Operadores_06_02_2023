@@ -1,40 +1,36 @@
-let num1 = 500, num2 = 32;
+let num1 = 10, num2 = 5.5;
 let resultado;
 let myStyle = "background: #0c690c;color: #fff;font-family: sans-serif;padding: 5px;border: 2px solid #0c6963;border-radius: 5px;";
 
-
-//Operador de adición 'Suma'
-
 resultado = num1 + num2;
-console.log(`%c${num1} + ${num2} = ${resultado}`, myStyle);
+console.log(`%cLa suma de 10 + 5.5 utilizando Math.round es: ${Math.round(resultado)} porque nos devuelve el valor de un número redondeado al número entero más cercano.`, myStyle);
 
-//Operador de sustracción 'Resta'
+//En el buscador de internet podemos encontrarlos con mdn
 
-resultado = num1 - num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
+// Math.ceil(x)
+// Devuelve el entero más pequeño mayor o igual que un número.
 
-//Operador de división 
+// Math.floor(x)
+// Devuelve el mayor entero menor que o igual a un número.
 
-resultado = num1 / num2;
-console.log(`%c${num1} / ${num2} = ${resultado}`, myStyle);
+// Math.max()
+// Devuelve el mayor de cero o más números.
 
-//Operador de Exponenciación 
+// Math.min()
+// Devuelve el más pequeño de cero o más números.
 
-resultado = num1 ** num2;
-console.log(`%c${num1} ** ${num2} = ${resultado}`, myStyle);
+// Math.pow(x, y) 
+// Las devoluciones de base a la potencia de exponente, que es, baseexponent.
 
-//Operador de Multiplicación 
+// Math.random()
+// Devuelve un número pseudo-aleatorio entre 0 y 1.
 
-resultado = num1 * num2;
-console.log(`%c${num1} * ${num2} = ${resultado}`, myStyle);
+// Math.round(x)
+// Devuelve el valor de un número redondeado al número entero más cercano.
 
-//Operador de Porcentaje
+// Math.sqrt(x)
+// Devuelve la raíz cuadrada positiva de un número.
 
-resultado = num1 % num2;
-console.log(`%c${num1} % ${num2} = ${resultado}`, myStyle);
-
-//Operador de Número Negativo
-
-resultado = (-num1) + num2;
-console.log(`%c${-num1} + ${num2} = ${resultado}`, myStyle);
+// Math.trunc(x)
+// Devuelve la parte entera del número x, la eliminación de los dígitos fraccionarios.
 
