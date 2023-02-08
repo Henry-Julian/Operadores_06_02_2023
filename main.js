@@ -34,7 +34,7 @@ console.log(`%cLa suma de 10 + 5.7 utilizando Math.min es: ${Math.min(resultado)
 // Math.pow(x, y) 
 // Las devoluciones de base a la potencia de exponente, que es, baseexponent.
 
-console.log(`%cEjemplo utilizando Math.pow: ${Math.pow(num1,num2)} hace las devoluciones de base a la potencia de exponente, que es, baseexponent.    `, myStyle);
+console.log(`%cEjemplo utilizando Math.pow elevando 10 por 5.7 veces: ${Math.pow(num1,num2)} hace las devoluciones de base a la potencia de exponente, que es, baseexponent.    `, myStyle);
 
 // Math.random()
 // Devuelve un número pseudo-aleatorio entre 0 y 1.
@@ -43,6 +43,11 @@ console.log(`%cEjemplo utilizando Math.pow: ${Math.pow(num1,num2)} hace las devo
 // Math.sqrt(x)
 // Devuelve la raíz cuadrada positiva de un número.
 
+console.log(`%cEjemplo utilizando Math.sqrt calculando la raíz cuadrada de 10 que es: ${Math.sqrt(num1)} Cuando se utiliza Math.sqr se devuelve la raíz cuadrada positiva de un número. `, myStyle);
+
 // Math.trunc(x)
 // Devuelve la parte entera del número x, la eliminación de los dígitos fraccionarios.
+
+console.log(`%cEjemplo utilizando Math.trunc devolviendo la parte entera de 5.7 que es: ${Math.trunc(num2)} Cuando se utiliza Math.trunc se devuelve la parte entera del número x, la eliminación de los dígitos fraccionarios. `, myStyle);
+
 
