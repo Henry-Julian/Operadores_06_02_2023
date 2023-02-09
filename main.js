@@ -1,53 +1,38 @@
-let num1 = 10, num2 = 5.7;
+let num1 = 10, num2 = 20;
 let resultado;
 let myStyle = "background: #0c690c;color: #fff;font-family: sans-serif;padding: 5px;border: 2px solid #0c6963;border-radius: 5px;";
 
-resultado = num1 + num2;
-console.log(`%cLa suma de 10 + 5.7 utilizando Math.round es: ${Math.round(resultado)} porque nos devuelve el valor de un número redondeado al número entero más cercano.`, myStyle);
+//Operador de igualdad:
 
-//En el buscador de internet podemos encontrarlos con mdn
-
-// Math.ceil(x)
-// Devuelve el entero más pequeño mayor o igual que un número.
-
-resultado = num1 + num2;
-console.log(`%cLa suma de 10 + 5.7 utilizando Math.ceil es: ${Math.ceil(resultado)} porque nos devuelve el entero más pequeño mayor o igual que un número.`, myStyle);
-
-// Math.floor(x)
-// Devuelve el mayor entero menor que o igual a un número.
-
-resultado = num1 + num2;
-console.log(`%cLa suma de 10 + 5.7 utilizando Math.floor es: ${Math.floor(resultado)} porque nos devuelve el entero menor que o igual a un número.`, myStyle);
-
-// Math.max()
-// Devuelve el mayor de cero o más números.
-
-resultado = num1 + num2;
-console.log(`%cLa suma de 10 + 5.7 utilizando Math.max es: ${Math.max(resultado)} porque nos devuelve el mayor de cero o más números.`, myStyle);
-
-// Math.min()
-// Devuelve el más pequeño de cero o más números.
-
-resultado = num1 + num2;
-console.log(`%cLa suma de 10 + 5.7 utilizando Math.min es: ${Math.min(resultado)} porque nos devuelve el más pequeño de cero o más números.`, myStyle);
-
-// Math.pow(x, y) 
-// Las devoluciones de base a la potencia de exponente, que es, baseexponent.
-
-console.log(`%cEjemplo utilizando Math.pow elevando 10 por 5.7 veces: ${Math.pow(num1,num2)} hace las devoluciones de base a la potencia de exponente, que es, baseexponent.    `, myStyle);
-
-// Math.random()
-// Devuelve un número pseudo-aleatorio entre 0 y 1.
+console.log(`%c El número 10 es igual a 20?. La operación se expresa así: ${num1} == ${num2}. El resultado es: ${num1==num2}`, myStyle);
 
 
-// Math.sqrt(x)
-// Devuelve la raíz cuadrada positiva de un número.
+//Operador de desigualdad:
 
-console.log(`%cEjemplo utilizando Math.sqrt calculando la raíz cuadrada de 10 que es: ${Math.sqrt(num1)} Cuando se utiliza Math.sqr se devuelve la raíz cuadrada positiva de un número. `, myStyle);
+console.log(`%c El número 10 es desigual a 20?. La operación se expresa así: ${num1} != ${num2}. El resultado es: ${num1!=num2}`, myStyle);
 
-// Math.trunc(x)
-// Devuelve la parte entera del número x, la eliminación de los dígitos fraccionarios.
 
-console.log(`%cEjemplo utilizando Math.trunc devolviendo la parte entera de 5.7 que es: ${Math.trunc(num2)} Cuando se utiliza Math.trunc se devuelve la parte entera del número x, la eliminación de los dígitos fraccionarios. `, myStyle);
+//Operador idéntico:
 
+console.log(`%c El número 10 es idéntico a 20?. La operación se expresa así: ${num1} === ${num2}. El resultado es: ${num1===num2} porque 10 no es idéntico a 20 en valor pero su formato es int. Si en lugar de 20 estuviera un 10 no solamente serían iguales sino idénticos en este caso porque los dos números son int.`, myStyle);
+
+
+//Operador no idéntico:
+
+console.log(`%c El número 10 no es idéntico a 20?. La operación se expresa así: ${num1} !== ${num2}. El resultado es: ${num1!==num2} porque 10 no es idéntico a 20 en valor pero su formato es int. Si en lugar de 20 estuviera un 10 y aparte fuera un string serían iguales en valor pero no idénticos ya que el segundo 10 es de tipo string y el primero es un int.`, myStyle);
+
+
+//Operador mayor que:
+
+console.log(`%c El número 10 es mayor a 20?. La operación se expresa así: ${num1} > ${num2}. El resultado es: ${num1>num2}`, myStyle);
+
+
+//Operador menor que:
+
+console.log(`%c El número 10 es menor a 20?. La operación se expresa así: ${num1} < ${num2}. El resultado es: ${num1<num2}`, myStyle);
+
+
+//Operador menor o igual que:
+
+console.log(`%c El número 10 es menor o igual a 20?. La operación se expresa así: ${num1} <= ${num2}. El resultado es: ${num1<=num2} porque está en el rango que equivale a ser menor que el número 20. Si el número 10 tuviera el valor de 20 también el resultado sería true.`, myStyle);
 
