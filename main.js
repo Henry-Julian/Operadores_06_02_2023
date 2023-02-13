@@ -5,12 +5,10 @@
 // su resultado es Booleano, y sus operandos son 
 // valores lógicos o asimilables a ellos
 
-let a = confirm("Variable A\n\t\tSeleccione Aceptar si desea el booleano True\n\t\tSeleccione Cancelar si desea el booleano False")
-let b = confirm("Variable B\n\t\tSeleccione Aceptar si desea el booleano True\n\t\tSeleccione Cancelar si desea el booleano False")
+let a = confirm("\n\t\tSeleccione Aceptar si desea el booleano True\n\t\tSeleccione Cancelar si desea el booleano False")
 
-let cuerpo = document.querySelector("#myOR");
+let cuerpo = document.querySelector("#myNOT");
 cuerpo.insertAdjacentHTML("beforeend", ` <tr>
                                             <td>${a}</td>
-                                            <td>${b}</td>
-                                            <td>${a || b}</td>
+                                            <td>${!a}</td>
                                         </tr>`);
